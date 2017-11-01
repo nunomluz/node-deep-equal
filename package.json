@@ -22,7 +22,9 @@
   "keywords": [
     "equality",
     "equal",
-    "compare"
+    "compare",
+    "non-recursive",
+    "recursive"
   ],
   "author": {
     "name": "James Halliday",
