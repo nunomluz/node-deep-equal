@@ -1,9 +1,8 @@
-# deep-equal
+# deep-equal-nonrecursive
+
+Fork of [deep-equal]() with a non-recursive implementation to avoid `Maximum call stack size exceeded` errors.
 
 Node's `assert.deepEqual() algorithm` as a standalone module.
-
-This module is around [5 times faster](https://gist.github.com/2790507)
-than wrapping `assert.deepEqual()` in a `try/catch`.
 
 [![browser support](https://ci.testling.com/substack/node-deep-equal.png)](https://ci.testling.com/substack/node-deep-equal)
 
@@ -12,7 +11,7 @@ than wrapping `assert.deepEqual()` in a `try/catch`.
 # example
 
 ``` js
-var equal = require('deep-equal');
+var equal = require('deep-equal-nonrecursive');
 console.dir([
     equal(
         { a : [ 2, 3 ], b : [ 4 ] },
@@ -28,7 +27,7 @@ console.dir([
 # methods
 
 ``` js
-var deepEqual = require('deep-equal')
+var deepEqual = require('deep-equal-nonrecursive')
 ```
 
 ## deepEqual(a, b, opts)

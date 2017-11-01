@@ -12,7 +12,8 @@
     "test": "tape test/*.js"
   },
   "devDependencies": {
-    "tape": "^3.5.0"
+    "tape": "^3.5.0",
+    "lodash": "^4.17.4"
   },
   "repository": {
     "type": "git",
